@@ -6,6 +6,7 @@ class Character{
     float speed_;
     float max_speed_;
   public:
+    Character();
 };
 
 #endif //CHARACTER_
