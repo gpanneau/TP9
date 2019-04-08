@@ -10,3 +10,10 @@ void Character::Accelerate(){
     speed_++;
   }
 }
+
+void Character::Break(){
+  if (speed_>0){
+    speed_--;
+  }
+}
+

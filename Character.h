@@ -8,6 +8,7 @@ class Character{
   public:
     Character();
     void Accelerate();
+    void Break();
 };
 
 #endif //CHARACTER_
