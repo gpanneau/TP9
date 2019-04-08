@@ -9,6 +9,11 @@ class Character{
     Character();
     void Accelerate();
     void Break();
+    inline float speed() const;
 };
+
+inline float Character::speed() const{
+  return speed_;
+}
 
 #endif //CHARACTER_
