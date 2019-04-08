@@ -7,6 +7,7 @@ class Character{
     float max_speed_;
   public:
     Character();
+    ~Character()=default;
     void Accelerate();
     void Break();
     inline float speed() const;
