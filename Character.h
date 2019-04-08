@@ -6,7 +6,7 @@ class Character{
     float speed_;
     float max_speed_;
   public:
-    Character();C
+    Character();
     void Accelerate();
     void Break();
     inline float speed() const;
