@@ -16,4 +16,4 @@ Yoshi.o: Yoshi.cpp Yoshi.h Character.h
 	g++ -o Yoshi.o -c ${CXXFLAGS} Yoshi.cpp
 
 clean: 
-	rm main main.o Character.o
+	rm main main.o Character.o Yoshi.o Mario.o
