@@ -1,6 +1,8 @@
 #ifndef CHARACTER_
 #define CHARACTER_
 
+#include <iostream>
+
 class Character{
   protected:
     float speed_;
@@ -8,9 +10,10 @@ class Character{
   public:
     Character();
     ~Character()=default;
-    void Accelerate();
+    virtual void Accelerate();
     void Break();
     inline float speed() const;
+    virtual std::string WhatAmI() const = 0;
 };
 
 inline float Character::speed() const{

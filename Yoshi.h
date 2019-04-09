@@ -8,6 +8,7 @@ class Yoshi : public Character{
   public:
     std::string WhatAmI() const override;
     Yoshi();
+    void Accelerate() override;
 };
 
 #endif //YOSHI_

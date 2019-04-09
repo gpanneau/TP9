@@ -8,3 +8,8 @@ std::string Yoshi::WhatAmI() const{
 
 Yoshi::Yoshi():Character(){}
 
+void Yoshi::Accelerate(){
+  if (speed_<max_speed_){
+    speed_=speed_+2;
+  }
+}
