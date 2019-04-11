@@ -3,7 +3,7 @@
 #include "Character.h"
 
 std::string Yoshi::WhatAmI() const{
-  return "Yoshi";
+  return std::to_string(NbrOfCrests_)+" crested Yoshi";
 }
 
 Yoshi::Yoshi(int NumberOfCrests):Character(){
