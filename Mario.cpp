@@ -7,3 +7,5 @@ std::string Mario::WhatAmI() const{
 }
 
 Mario::Mario():Character(){}
+
+Mario::~Mario()=default;

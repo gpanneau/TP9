@@ -11,6 +11,7 @@ class Yoshi : public Character{
     std::string WhatAmI() const override;
     Yoshi(int NumberOfCrests);
     void Accelerate() override;
+    ~Yoshi();
 };
 
 #endif //YOSHI_

@@ -13,3 +13,5 @@ void Yoshi::Accelerate(){
     speed_=speed_+2;
   }
 }
+
+Yoshi::~Yoshi()=default;

@@ -23,5 +23,7 @@ int main(int argc,char* argv[]){
   }
   std::cout <<Runners[0]->WhatAmI()<<std::endl;
   std::cout <<Runners[1]->WhatAmI()<<std::endl;
+  delete Runners[0];
+  delete Runners[1];
   return 0;
 }
