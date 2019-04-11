@@ -5,9 +5,11 @@
 #include "Character.h"
 
 class Yoshi : public Character{
+  private:
+    int NbrOfCrests_;
   public:
     std::string WhatAmI() const override;
-    Yoshi();
+    Yoshi(int NumberOfCrests);
     void Accelerate() override;
 };
 

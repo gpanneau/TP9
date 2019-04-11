@@ -7,7 +7,7 @@ int main(int argc,char* argv[]){
   std::cout<<"Hello World !"<<std::endl;
   Character* Runners[2];
   Runners[0]=new Mario();
-  Runners[1]=new Yoshi();
+  Runners[1]=new Yoshi(2);
   std::cout<<Runners[0]->speed()<<std::endl;
   for (int i=0;i<15;++i){
     Runners[0]->Accelerate();
